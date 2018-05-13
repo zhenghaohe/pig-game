@@ -140,6 +140,7 @@ i {
 .btn-new { top: 45px;}
 .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
+.btn-copyright { top: 650px; font-size: 15px;}
 
 .dice {
     position: absolute;
@@ -152,3 +153,8 @@ i {
 
 .winner { background-color: #f7f7f7; }
 .winner .player-name { font-weight: 300; color: #EB4D4D; }
+
+a {
+  color: inherit; 
+  text-decoration: inherit; /* no underline */
+}
